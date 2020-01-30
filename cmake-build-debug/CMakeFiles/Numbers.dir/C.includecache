@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/twiggy/CLion/Numbers/conversion.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+math.h
+-
+ctype.h
+-
+
+/Users/twiggy/CLion/Numbers/main.c
+conversion.h
+/Users/twiggy/CLion/Numbers/conversion.h
+
